@@ -1,0 +1,126 @@
+/***************************************************
+****************************************************
+
+Theme Name:     wordpress-bootstrap-master-child
+Description:    Child theme for the wp-bootstrap theme
+Author:         Taylor Thompson (tayl0rt)
+Template:       wordpress-bootstrap-master
+Version:        1.0 (Aug 20, 2013)          
+
+****************************************************                   
+***************************************************/
+
+
+/**** Import Parent CSS ****/
+
+@import url("../wordpress-bootstrap-master/style.css");
+
+/**************** 
+*****************
+Custom CSS Below!
+*****************
+****************/
+
+/*******************
+General stuff below
+*******************/
+
+* {
+	text-shadow: 0 0 0 #fff !Important;        	/**** Removes Shadows on entire page ****/
+}
+
+.page-header h1 {
+	text-align: center;				/**** centers page titles ****/
+	display: none;					/**** hides Title ****/
+}
+
+.page-header {
+	border-bottom: none !Important;
+}
+
+#credit320 {
+	display: none;					/**** hides theme name ****/
+}
+
+/******************
+Navigation Bar CSS
+******************/
+
+.navbar .brand {
+	color: #E5E5E5;					/**** Colors and removes BOLD weight on Site titles ****/
+	font-weight: normal !Important;
+}
+
+.navbar-inner, .navbar, .fill {
+	border: 1px solid #000 !Important;		/**** sets border of Navbar to black (#000) ****/
+
+	background-color: #2E2E2E !Important;  /**** Background color of Navigation Bar! ****/
+
+	background-image: none !Important;
+}
+
+.navbar .nav li a {
+	color: #efefef;
+}
+
+.navbar .nav li a:hover {
+	color: #ffffff;
+}
+
+/*****************
+Sidebar CSS Below
+*****************/
+
+.widget {
+	padding: 40px 0px 150px 0px;
+	position: fixed;
+}
+
+/******************
+Body/Container CSS
+******************/
+
+.container-fluid{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+body {
+	font-family: sans-serif, Arial, Helvetica; 	/**** Sets fonts and background color ****/
+	background-color: #efefef;
+}
+
+body.custom-background {
+	background-color: #ACACAC !Important;		/**** Background color ****/
+}
+
+#content {
+	background-color: #F7F7F7;		/**** Content background color ****/
+}
+
+.post_content {
+	padding: 0 20px 10px 20px;		/**** Padding for post content ****/
+}
+
+iframe {
+	position: relative;
+	width: 100%;
+}
+/****************
+Footer CSS Below
+****************/
+
+#inner-footer{
+	background-color: #2E2E2E !Important;
+	height: 87.5px;
+}
+
+.attribution {
+	float: left;
+	font-size: 1em;
+	margin-left: 16.3%;
+	padding-top: 10px;
+	color: #E5E5E5
+}
+
+
