@@ -35,7 +35,8 @@ General stuff below
 }
 
 .page-header {
-	border-bottom: none !Important;
+	border-bottom: none !Important;	/**** removes heading border and adds 0 padding ****/
+	padding: 0;
 }
 
 #credit320 {
@@ -61,7 +62,7 @@ Navigation Bar CSS
 
 .navbar .nav li a {
 	color: #efefef;
-}
+}									/**** navbar color for text and text hover ****/
 
 .navbar .nav li a:hover {
 	color: #ffffff;
@@ -72,7 +73,7 @@ Sidebar CSS Below
 *****************/
 
 .widget {
-	padding: 40px 0px 150px 0px;
+	padding: 40px 0px 150px 0px;	/**** Widget Padding and position: fixed / relative ****/
 	position: fixed;
 }
 
@@ -81,13 +82,13 @@ Body/Container CSS
 ******************/
 
 .container-fluid{
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 5px;				/**** Padding for the container fluid ****/
+	padding-bottom: 5px;
 }
 
 body {
 	font-family: sans-serif, Arial, Helvetica; 	/**** Sets fonts and background color ****/
-	background-color: #efefef;
+	background-color: #efefef;		
 }
 
 body.custom-background {
@@ -96,6 +97,7 @@ body.custom-background {
 
 #content {
 	background-color: #F7F7F7;		/**** Content background color ****/
+	margin-bottom: 5px;				/**** Padding for the bottom of the content and the top of the footer
 }
 
 .post_content {
@@ -111,13 +113,13 @@ Footer CSS Below
 ****************/
 
 #inner-footer{
-	background-color: #2E2E2E !Important;
+	background-color: #2E2E2E !Important;		/**** Added footer, so added color / height! ****/
 	height: 87.5px;
 }
 
 .attribution {
 	float: left;
-	font-size: 1em;
+	font-size: 1em;					/**** attribution CSS, might have to fiddle with margin-left ****/
 	margin-left: 16.3%;
 	padding-top: 10px;
 	color: #E5E5E5
